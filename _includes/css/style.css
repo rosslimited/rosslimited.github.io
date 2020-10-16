@@ -57,3 +57,10 @@ footer p a {
 footer p a:hover {
   color: crimson;
 }
+footer table {
+  display: none;
+  width: 100%;
+}
+footer:hover table {
+  display: block;
+}
