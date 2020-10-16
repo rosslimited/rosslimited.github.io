@@ -49,8 +49,10 @@ footer {
   text-align: center;
   background-color: #293133;
 }
-
 footer p a {
   color: white;
   text-decoration: none;
+}
+footer p a:hover {
+  color: crimson;
 }
