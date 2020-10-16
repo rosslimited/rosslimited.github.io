@@ -1,0 +1,143 @@
+nav {
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 99;
+  background-color: transparent;
+  border-bottom-right-radius: 8px;
+  /* Vortex */
+}
+nav #nav-bar {
+  display: none;
+  margin: 0;
+  left: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+nav #nav-bar ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+nav #nav-bar ul a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+nav #nav-bar ul a:hover {
+  color: crimson;
+}
+nav #nav-bar ul li {
+  padding: 10px;
+  display: block;
+  text-align: left;
+  width: auto;
+}
+nav #nav-bar ul li i {
+  margin-right: 10px;
+}
+nav #nav-bar ul hr {
+  margin: 0;
+  padding: 0;
+  border-color: white;
+}
+nav .hamburger {
+  z-index: 2;
+  padding: 15px 15px;
+  display: inline-block;
+  cursor: pointer;
+  transition-property: opacity, filter;
+  transition-duration: 0.15s;
+  transition-timing-function: linear;
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  position: relative;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  margin: 0;
+  overflow: visible;
+}
+nav .hamburger.is-active .hamburger-inner,
+nav .hamburger.is-active .hamburger-inner::before,
+nav .hamburger.is-active .hamburger-inner::after {
+  background-color: white;
+}
+nav .hamburger:hover .hamburger-inner,
+nav .hamburger:hover .hamburger-inner::before,
+nav .hamburger:hover .hamburger-inner::after {
+  background-color: white;
+}
+nav .hamburger.is-active:hover .hamburger-inner,
+nav .hamburger.is-active:hover .hamburger-inner::before,
+nav .hamburger.is-active:hover .hamburger-inner::after {
+  background-color: crimson;
+}
+nav .hamburger-box {
+  width: 40px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+}
+nav .hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+nav .hamburger-inner, nav .hamburger-inner::before, nav .hamburger-inner::after {
+  width: 40px;
+  height: 4px;
+  background-color: crimson;
+  border-radius: 4px;
+  position: absolute;
+  transition-property: transform;
+  transition-duration: 0.15s;
+  transition-timing-function: ease;
+}
+nav .hamburger-inner::before, nav .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+nav .hamburger-inner::before {
+  top: -10px;
+}
+nav .hamburger-inner::after {
+  bottom: -10px;
+}
+nav .hamburger--vortex .hamburger-inner {
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+nav .hamburger--vortex .hamburger-inner::before, nav .hamburger--vortex .hamburger-inner::after {
+  transition-duration: 0s;
+  transition-delay: 0.1s;
+  transition-timing-function: linear;
+}
+nav .hamburger--vortex .hamburger-inner::before {
+  transition-property: top, opacity;
+}
+nav .hamburger--vortex .hamburger-inner::after {
+  transition-property: bottom, transform;
+}
+nav .hamburger--vortex.is-active .hamburger-inner {
+  transform: rotate(765deg);
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+nav .hamburger--vortex.is-active .hamburger-inner::before, nav .hamburger--vortex.is-active .hamburger-inner::after {
+  transition-delay: 0s;
+}
+nav .hamburger--vortex.is-active .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+}
+nav .hamburger--vortex.is-active .hamburger-inner::after {
+  bottom: 0;
+  transform: rotate(90deg);
+}
