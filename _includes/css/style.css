@@ -60,6 +60,15 @@ footer p a:hover {
 footer table {
   display: none;
   width: 100%;
+  text-align: center;
+}
+footer table tr {
+  width: 100%;
+  text-align: center;
+}
+footer table td {
+  width: 33%;
+  text-align: center;
 }
 footer:hover table {
   display: block;
