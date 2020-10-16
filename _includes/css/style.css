@@ -45,6 +45,8 @@ header #text #sub {
 
 footer {
   position: absolute;
+  color: white !important;
+  text-decoration: none;
   bottom: 0;
   width: 100vw;
   text-align: center;
