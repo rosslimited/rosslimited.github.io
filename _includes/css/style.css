@@ -61,6 +61,7 @@ footer table {
   display: none;
   width: 100%;
   text-align: center;
+  table-layout: fixed;
 }
 footer table tr {
   width: 100%;
