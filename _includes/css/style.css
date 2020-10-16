@@ -46,6 +46,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100vw;
+  color: white;
   text-align: center;
   background-color: #293133;
 }
