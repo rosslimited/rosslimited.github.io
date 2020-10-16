@@ -1,5 +1,6 @@
 ---
 ---
 
+{% include css/style.css %}
 {% include css/changecolor.css %}
 {% include css/nav.css %}
