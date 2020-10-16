@@ -40,3 +40,13 @@ header #text #sub {
   font-size: 28px;
   font-weight: lighter;
 }
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+  background-color: #293133;
+}
