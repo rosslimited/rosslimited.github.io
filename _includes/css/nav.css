@@ -145,7 +145,6 @@ nav .hamburger--vortex.is-active .hamburger-inner::after {
 }
 
 #goToTop {
-  display: none;
   position: fixed;
   bottom: 50px;
   right: 50px;
