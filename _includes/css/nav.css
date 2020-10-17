@@ -147,10 +147,11 @@ nav .hamburger--vortex.is-active .hamburger-inner::after {
 #goToTop {
   position: fixed;
   overflow: hidden;
-  bottom: 15;
-  right: 15;
+  bottom: 15px;
+  right: 15px;
   width: 20px;
 }
 #goToTop img {
+  position: relative;
   width: 100%
 }
