@@ -144,7 +144,7 @@ nav .hamburger--vortex.is-active .hamburger-inner::after {
   transform: rotate(90deg);
 }
 
-#goToTop a img {
+#goToTop {
   display: none;
   position: fixed;
   bottom: 50px;
