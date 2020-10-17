@@ -59,16 +59,7 @@ footer p a:hover {
 }
 footer table {
   display: none;
-  width: 100%;
-  text-align: center;
-  table-layout: fixed;
-}
-footer table tr {
-  width: 100%;
-  text-align: center;
-}
-footer table td {
-  width: 33%;
+  width: 100vw;
   text-align: center;
 }
 footer:hover table {
