@@ -91,7 +91,7 @@ header #text #sub a:hover::after {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
   color: white;
