@@ -63,5 +63,5 @@ footer table {
   text-align: center;
 }
 footer:hover table {
-  display: block;
+  display: table;
 }
