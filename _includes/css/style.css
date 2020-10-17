@@ -48,7 +48,7 @@ header #text #name {
 header #text #motto {
   /* Above Name */
   color: crimson;
-  font-size: 22px;
+  font-size: 44px;
   font-weight: lighter;
 }
 header #text #sub {
