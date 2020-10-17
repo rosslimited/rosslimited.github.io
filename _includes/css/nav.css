@@ -143,3 +143,11 @@ nav .hamburger--vortex.is-active .hamburger-inner::after {
   bottom: 0;
   transform: rotate(90deg);
 }
+
+#goToTop {
+  position: fixed;
+  bottom: 15;
+  right: 15;
+  width: 20px;
+
+}
