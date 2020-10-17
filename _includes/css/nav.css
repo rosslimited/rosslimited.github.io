@@ -41,6 +41,7 @@ nav #nav-bar ul li {
 nav #nav-bar ul li i {
   margin-right: 10px;
   text-align: center;
+  color: crimson;
 }
 nav #nav-bar ul hr {
   margin: 0;
