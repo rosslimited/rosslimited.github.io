@@ -9,10 +9,6 @@ canvas.colorChange {
 }
 
 /* Typewriter */
-body {
-  display: flex;
-  justify-content: center;
-}
 .typewriter .type {
   color: #fff;
   font-family: monospace;
