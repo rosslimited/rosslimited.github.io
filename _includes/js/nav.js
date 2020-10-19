@@ -7,11 +7,11 @@ hamburger.addEventListener('click', function() {
     if (hamburger.classList.contains('is-active')) {
       document.getElementById("nav-bar").style.display = "block";
       document.getElementsByTagName("nav")[0].style.backgroundColor = "black";
-      document.getElementsByClass("panel").style.opacity = "0.25";
+      document.getElementsByTagName("body").style.opacity = "0.25";
     }
     else {
       document.getElementById("nav-bar").style.display = "none";
       document.getElementsByTagName("nav")[0].style.backgroundColor = "transparent";
-      document.getElementsByClass("panel").style.opacity = "1";
+      document.getElementsByTagName("body").style.opacity = "1";
     }
 });
